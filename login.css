@@ -1,0 +1,80 @@
+/* *{ */
+   
+}
+body{
+    font-family: mv boli;
+}
+html{
+    background-image: url(image/back\ img.jpg);
+    background-size: cover;
+    background-repeat:no-repeat;
+    overflow: hidden;
+
+  
+}
+.container{
+    width: 380px;
+    margin: 10% auto;
+    border-radius: 25px;
+    background-color: rgba(0,0,0,0.2);
+    box-shadow: 0 0 10px #333;
+
+}
+.header{
+    text-align: center;
+    padding-top: 73px;
+    
+}
+.header h1{
+    /* color: #fac031; */
+    font-size: 45px;
+    margin-bottom: 80px;
+    color: #333;
+    font-family: mv boli;
+}
+.main{
+    text-align: center;
+}
+.main input,button{
+    width: 300px;
+    height: 40px;
+    border: none;
+    outline: none;
+    padding-left: 40px;
+    box-sizing: border-box;
+    font-size: 15px;
+    color: #333;
+    margin-bottom: 40px;
+}   
+.main button{
+    padding-left: 0;
+    /* background-color: #83acf1; */
+    font-family: mv boli;
+    cursor: pointer;
+    letter-spacing: 1px;
+    font-weight: bold;
+   background-color:#ffb7006d;
+}
+.main button:hover{
+    background-color: #fac031;
+    box-shadow: 2px 2px 5px;
+
+}
+.main input:hover {
+    box-shadow: 2px 2px 5px;
+    background-color: #ddd;
+}
+.span1{
+    color: #fac031;
+}
+.main span{
+    position: relative;
+}
+.main i{
+    position: absolute;
+    left: 15px;
+    color: #333;
+    font-size: 16px;
+    top: 2px;
+
+}
